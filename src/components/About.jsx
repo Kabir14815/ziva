@@ -9,19 +9,17 @@ const features = [
 const doctors = [
   {
     name: 'Dr. Rajesh Kumar',
-    gender: 'male',
     role: 'Senior Physician',
     qualification: 'MBBS, MD (General Medicine)',
-    bio: 'Over 15 years of experience in general medicine and emergency care. Committed to patient-centric care.',
-    image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500',
+    bio: '15+ years in general medicine & emergency care.',
+    image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300',
   },
   {
     name: 'Dr. Priya Sharma',
-    gender: 'female',
     role: 'Senior Physician',
     qualification: 'MBBS, MD (Internal Medicine)',
-    bio: 'Expert in internal medicine with a focus on preventive care and chronic disease management.',
-    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500',
+    bio: 'Expert in internal medicine & preventive care.',
+    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300',
   },
 ]
 
@@ -61,12 +59,9 @@ function About() {
         </div>
 
         <div id="doctors" ref={doctorsRef} className={`doctors-section ${doctorsVisible ? 'reveal' : ''}`}>
-          <div className="section-header">
+          <div className="doctors-section-header">
             <span className="section-label">Our Team</span>
             <h2 className="section-title">Meet Our Doctors</h2>
-            <p className="section-desc">
-              Experienced medical professionals dedicated to your health and wellbeing.
-            </p>
           </div>
           <div className="doctors-grid">
             {doctors.map((doctor) => (

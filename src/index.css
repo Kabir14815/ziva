@@ -737,25 +737,27 @@ body::before {
 
 /* ---------- Doctors ---------- */
 .doctors-section {
-  margin-top: 6rem;
-  padding-top: 4rem;
+  margin-top: 4rem;
+  padding-top: 3rem;
   border-top: 1px solid rgba(249, 168, 212, 0.3);
 }
-.doctors-section .section-header {
-  margin-bottom: 3rem;
+.doctors-section-header {
+  margin-bottom: 2rem;
 }
+.doctors-section-header .section-title { font-size: clamp(1.75rem, 3.5vw, 2.5rem); }
 .doctors-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2.5rem;
+  gap: 1.5rem;
 }
 .doctor-card {
   background: rgba(255, 255, 255, 0.7);
   border: 1px solid var(--pink-400);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   overflow: hidden;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: stretch;
   transition: all 0.5s var(--ease-out);
   opacity: 0;
   transform: translateY(30px);
@@ -772,7 +774,9 @@ body::before {
   border-color: var(--pink-500);
 }
 .doctor-image-wrap {
-  aspect-ratio: 4/5;
+  width: 120px;
+  min-width: 120px;
+  aspect-ratio: 1;
   overflow: hidden;
   background: var(--gradient-pink-blue-pale);
 }
@@ -786,35 +790,38 @@ body::before {
   transform: scale(1.05);
 }
 .doctor-info {
-  padding: 2rem;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .doctor-name {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: var(--ink);
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.2rem;
   letter-spacing: -0.01em;
 }
 .doctor-role {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 600;
   background: var(--gradient-pink-blue);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.2rem;
 }
 .doctor-qualification {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: var(--charcoal-muted);
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 0.4rem;
 }
 .doctor-bio {
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   color: var(--charcoal);
-  line-height: 1.65;
+  line-height: 1.5;
 }
 
 /* ---------- Services ---------- */
@@ -1150,6 +1157,10 @@ body::before {
   .location-grid { grid-template-columns: 1fr; }
   .location-map { min-height: 340px; }
   .doctors-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 768px) {
+  .doctor-card { flex-direction: column; }
+  .doctor-image-wrap { width: 100%; aspect-ratio: 4/3; min-width: unset; }
 }
 @media (max-width: 768px) {
   .container { padding: 0 1.5rem; }
