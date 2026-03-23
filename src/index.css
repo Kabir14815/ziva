@@ -115,10 +115,9 @@ body::before {
 }
 
 .logo-img {
-  height: 100px;
+  height: 55px;
   width: auto;
   object-fit: contain;
-  margin: -25px -10px;
   mix-blend-mode: multiply;
 }
 .logo:hover { color: #e879a4 !important; }
@@ -1173,10 +1172,9 @@ body::before {
 }
 
 .footer-logo-img {
-  height: 140px;
+  height: 75px;
   width: auto;
   object-fit: contain;
-  margin: -30px -10px;
   mix-blend-mode: multiply;
 }
 .footer-address {
