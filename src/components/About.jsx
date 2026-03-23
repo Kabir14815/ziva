@@ -1,7 +1,7 @@
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const features = [
-  { icon: '', text: 'Routine OPD Services' },
+  { icon: '#', text: 'Routine OPD Services' },
   { icon: '+', text: 'Multiple specialties under one roof' },
   { icon: '★', text: 'Experienced medical professionals' },
 ]
