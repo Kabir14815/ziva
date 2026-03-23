@@ -1185,13 +1185,15 @@ body::before {
   display: inline-flex;
   margin-bottom: 1.25rem;
   letter-spacing: 0.04em;
+  mix-blend-mode: multiply;
 }
 
 .footer-logo-img {
   height: 75px;
   width: auto;
   object-fit: contain;
-  mix-blend-mode: multiply;
+  mix-blend-mode: multiply !important;
+  background: transparent;
 }
 .footer-address {
   font-size: 0.95rem;
