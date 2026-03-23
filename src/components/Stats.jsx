@@ -1,10 +1,10 @@
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const stats = [
-  { value: '15+', label: 'Years Experience' },
-  { value: '50K+', label: 'Happy Patients' },
+  { value: '10+', label: 'Years Experience' },
+  { value: '20K+', label: 'Happy Patients' },
   { value: '24/7', label: 'Emergency Care' },
-  { value: '20+', label: 'Specialists' },
+  { value: '15+', label: 'Specialists' },
 ]
 
 function StatCard({ value, label, delay }) {
