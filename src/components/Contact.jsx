@@ -9,13 +9,13 @@ function Contact() {
               We're here for you 24 hours a day, 7 days a week. Reach out for appointments or emergencies.
             </p>
             <div className="contact-methods">
-              <a href="tel:+911234567890" className="contact-link contact-link-emergency">
+              <a href="tel:+919878599446" className="contact-link contact-link-emergency">
                 <span className="contact-label">Emergency Call</span>
-                <span className="contact-value">+91 123 456 7890</span>
+                <span className="contact-value">+91 98785 99446</span>
               </a>
-              <a href="tel:+911234567890" className="contact-link">
+              <a href="tel:+919878599446" className="contact-link">
                 <span className="contact-label">Appointments</span>
-                <span className="contact-value">+91 123 456 7890</span>
+                <span className="contact-value">+91 98785 99446</span>
               </a>
               <a href="mailto:info@zivahospital.com" className="contact-link">
                 <span className="contact-label">Email</span>
