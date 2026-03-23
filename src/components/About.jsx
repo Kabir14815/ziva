@@ -9,7 +9,7 @@ const features = [
 const doctors = [
   {
     name: 'Dr. Parul Jaiswal',
-    role: 'Gynae & Laparoscopy Expert',
+    role: 'Obstetrician and Gynaecologist',
     qualifications: [
       'MBBS (CMC Ludhiana)',
       'MD OBS & Gynae (GMCH-32 Chandigarh)',
