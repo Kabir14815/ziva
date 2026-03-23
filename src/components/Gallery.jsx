@@ -2,12 +2,11 @@ import React from 'react'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const photos = [
-  'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1581594693702-fbdc51b2763b?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&q=80&w=800',
-  'https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&q=80&w=800',
+  '/gallery/1.png',
+  '/gallery/2.jpg',
+  '/gallery/3.jpg',
+  '/gallery/4.jpg',
+  '/gallery/5.jpg',
 ]
 
 function Gallery() {
