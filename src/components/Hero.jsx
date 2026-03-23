@@ -10,7 +10,7 @@ function Hero() {
             Ziva: Premium <span className="highlight">Healthcare</span> in Mundi Kharar
           </h1>
           <p className="hero-subtitle">
-            Premium healthcare, around the clock. Compassionate care meets clinical excellence at our state-of-the-art facility in Mundi Kharar.
+            Premium healthcare, round the clock. Compassionate care meets clinical excellence at our state-of-the-art facility in Mundi Kharar.
           </p>
           <div className="hero-actions">
             <a href="#contact" className="btn btn-primary">
