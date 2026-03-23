@@ -3,7 +3,7 @@ import { useState } from 'react'
 const faqs = [
   {
     q: 'What are your operating hours?',
-    a: 'Ziva Multispeciality Hospital is open 24 hours a day, 7 days a week. Our emergency and OPD services are available around the clock.',
+    a: 'Ziva Multispeciality Hospital is open 24 hours a day, 7 days a week. Our emergency services are available round the clock.',
   },
   {
     q: 'Do you handle emergencies?',
