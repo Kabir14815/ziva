@@ -121,13 +121,13 @@ body::before {
   mix-blend-mode: multiply;
 }
 .logo:hover { color: #e879a4 !important; }
-.nav-links { display: flex; gap: 3rem; list-style: none; align-items: center; }
+.nav-links { display: flex; gap: 1.8rem; list-style: none; align-items: center; }
 .nav-emergency-mobile { display: none; }
 .nav-links a {
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   transition: color 0.3s var(--ease);
 }
