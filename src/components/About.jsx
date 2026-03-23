@@ -65,7 +65,7 @@ function About() {
           <div className="about-visual">
             <div className="visual-card">
               <img
-                src="/IMG_3264.DNG"
+                src="/IMG_5052.JPG.jpeg"
                 alt="Ziva Multispeciality Hospital - Modern healthcare facility"
                 className="about-image"
               />
