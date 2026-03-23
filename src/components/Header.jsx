@@ -26,7 +26,7 @@ function Header() {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <nav className="nav">
-        <a href="#" className="logo">Ziva</a>
+        <a href="#" className="logo"><img src="/logo.png" alt="Ziva Logo" className="logo-img" /></a>
         <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
           <li className="nav-emergency-mobile">
             <a href="tel:+911234567890" onClick={handleNavClick} className="nav-link-emergency">Emergency</a>
