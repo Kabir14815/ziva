@@ -1,12 +1,15 @@
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const services = [
+  { icon: '👶', title: 'Pediatrics', desc: 'Dedicated care for infants and children' },
+  { icon: '🧬', title: 'PCOD', desc: 'Comprehensive management and hormonal care for PCOD/PCOS' },
+  { icon: '🤰', title: 'High Risk Pregnancy', desc: 'Expert monitoring and care for complex maternal cases' },
+  { icon: '⚕️', title: 'OB-GYN', desc: 'Complete women\'s health, obstetrics, and gynaecology services' },
+  { icon: '🩹', title: 'Surgery', desc: 'Modern operation theatres and surgical excellence' },
   { icon: '🩺', title: 'General Medicine', desc: 'Complete primary care, health checkups, and preventive medicine' },
+  { icon: '👩‍⚕️', title: 'Specialist Consultation', desc: 'Expert care across cardiology, ortho, and more' },
   { icon: '🏥', title: 'Emergency Care', desc: '24/7 emergency & trauma services with critical care' },
   { icon: '💉', title: 'Diagnostics', desc: 'Advanced lab, imaging, CT, and pathology facilities' },
-  { icon: '👩‍⚕️', title: 'Specialist Consultations', desc: 'Expert care across cardiology, ortho, and more' },
-  { icon: '🩹', title: 'Surgery', desc: 'Modern operation theatres and surgical excellence' },
-  { icon: '👶', title: 'Pediatrics', desc: 'Dedicated care for infants and children' },
 ]
 
 function ServiceCard({ icon, title, desc, index }) {
