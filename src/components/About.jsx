@@ -1,7 +1,7 @@
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const features = [
-  { icon: '24/7', text: 'Emergency & OPD services' },
+  { icon: '', text: 'Routine OPD Services' },
   { icon: '+', text: 'Multiple specialties under one roof' },
   { icon: '★', text: 'Experienced medical professionals' },
 ]
@@ -56,7 +56,7 @@ function About() {
             <ul className="about-features">
               {features.map(({ icon, text }) => (
                 <li key={text}>
-                  <span className="feature-icon">{icon}</span>
+                  {icon && <span className="feature-icon">{icon}</span>}
                   <span>{text}</span>
                 </li>
               ))}
