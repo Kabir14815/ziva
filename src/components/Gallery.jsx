@@ -12,6 +12,11 @@ const photos = [
   '/gallery/8.png',
   '/gallery/9.jpg',
   '/gallery/10.png',
+  '/gallery/11.jpg',
+  '/gallery/12.jpg',
+  '/gallery/13.jpg',
+  '/gallery/14.jpg',
+  '/gallery/15.png',
 ]
 
 function Gallery() {
