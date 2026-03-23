@@ -10,6 +10,7 @@ const doctors = [
   {
     name: 'Dr. Parul Jaiswal',
     role: 'Obstetrician and Gynaecologist',
+    availability: '11:00am - 2:00pm and 5:00pm-7:00pm',
     qualifications: [
       'MBBS (CMC Ludhiana)',
       'MD OBS & Gynae (GMCH-32 Chandigarh)',
@@ -25,6 +26,7 @@ const doctors = [
   {
     name: 'Dr. Pankaj Chopra',
     role: 'Emergency & Medicine Specialist',
+    availability: '10:00am-8:00pm',
     qualifications: [
       'MBBS (Emergency & Medicine)',
       'Fellowship in E. Medicine',
@@ -91,6 +93,12 @@ function About() {
                 <div className="doctor-info">
                   <h3 className="doctor-name">{doctor.name}</h3>
                   <p className="doctor-role">{doctor.role}</p>
+                  {doctor.availability && (
+                    <div className="doctor-availability">
+                      <span className="availability-icon">🕒</span>
+                      <span className="availability-text">{doctor.availability}</span>
+                    </div>
+                  )}
                   <div className="doctor-qualifications">
                     {doctor.qualifications.map((q) => (
                       <span key={q} className="doctor-qual-tag">{q}</span>

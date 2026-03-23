@@ -819,7 +819,23 @@ body::before {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+.doctor-availability {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--charcoal);
+  font-weight: 600;
+  background: var(--gradient-pink-blue-pale);
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--pink-300);
+}
+.availability-icon {
+  font-size: 1rem;
 }
 .doctor-qualifications {
   display: flex;
