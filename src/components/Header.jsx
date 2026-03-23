@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react'
 
 const navLinks = [
-  { href: '#about', label: 'About' },
-  { href: '#doctors', label: 'Our Team' },
-  { href: '#services', label: 'Services' },
-  { href: '#testimonials', label: 'Reviews' },
-  { href: '#faq', label: 'FAQ' },
-  { href: '#location', label: 'Location' },
-  { href: '#contact', label: 'Contact' },
+  { href: '/#about', label: 'About' },
+  { href: '/#doctors', label: 'Our Team' },
+  { href: '/#services', label: 'Services' },
+  { href: '/gallery', label: 'Gallery' },
+  { href: '/#testimonials', label: 'Reviews' },
+  { href: '/#faq', label: 'FAQ' },
+  { href: '/#location', label: 'Location' },
+  { href: '/#contact', label: 'Contact' },
 ]
 
 function Header() {
@@ -26,7 +27,7 @@ function Header() {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <nav className="nav">
-        <a href="#" className="logo"><img src="/logo.png" alt="Ziva Logo" className="logo-img" /></a>
+        <a href="/" className="logo"><img src="/logo.png" alt="Ziva Logo" className="logo-img" /></a>
         <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
           <li className="nav-emergency-mobile">
             <a href="tel:+919878599446" onClick={handleNavClick} className="nav-link-emergency">Emergency</a>
