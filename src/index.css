@@ -115,11 +115,12 @@ body::before {
 }
 
 .logo-img {
-  height: 100px;
-  width: auto;
+  width: 280px;
+  max-width: 100%;
+  height: auto;
   object-fit: contain;
-  margin: -25px -10px;
   mix-blend-mode: multiply;
+  display: block;
 }
 .logo:hover { color: #e879a4 !important; }
 .nav-links { display: flex; gap: 3rem; list-style: none; align-items: center; }
@@ -1173,11 +1174,12 @@ body::before {
 }
 
 .footer-logo-img {
-  height: 140px;
-  width: auto;
+  width: 340px;
+  max-width: 100%;
+  height: auto;
   object-fit: contain;
-  margin: -30px -10px;
   mix-blend-mode: multiply;
+  display: block;
 }
 .footer-address {
   font-size: 0.95rem;
