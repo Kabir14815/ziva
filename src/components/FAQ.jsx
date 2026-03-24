@@ -11,7 +11,7 @@ const faqs = [
   },
   {
     q: 'Where is the hospital located?',
-    a: 'We are on Chandigarh Rd, adjacent to Hotel Harmony, opposite pillar number 16, Sunny Enclave, Mundi Kharar, Kharar, Punjab 140301.',
+    a: 'We are Located on Chandigarh-Kharar Highway, Opposite Pillar No. 16, Adjoining Hotel Harmony, Mundi Kharar, Punjab 140301.',
   },
   {
     q: 'What specialties do you offer?',

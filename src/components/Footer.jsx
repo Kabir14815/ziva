@@ -1,4 +1,4 @@
-const FOOTER_ADDRESS = 'Chandigarh Rd, adjacent Hotel Harmony, opposite pillar number 16, Sunny Enclave, Mundi Kharar, Kharar, Punjab 140301'
+const FOOTER_ADDRESS = 'Located on Chandigarh-Kharar Highway, Opposite Pillar No. 16, Adjoining Hotel Harmony, Mundi Kharar, Punjab 140301'
 
 function Footer() {
   return (
