@@ -49,7 +49,7 @@ const doctors = [
       'Head Neuro Interventional and Endovascular Neurosurgery, Chandigarh',
     ],
     specialties: ['Spine Surgery', 'Neuro Surgery'],
-    image: '',
+    image: '/vineet_saggar.jpeg',
   },
   {
     name: 'Dr. Ruchir Rastogi',
