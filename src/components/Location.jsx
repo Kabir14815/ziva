@@ -1,6 +1,6 @@
-const MAP_QUERY = 'Chandigarh+Rd+Sunny+Enclave+Mundi+Kharar+Kharar+Punjab+140301'
+const MAP_QUERY = '30.743258,76.661955'
 const MAP_EMBED = `https://maps.google.com/maps?q=${MAP_QUERY}&t=&z=16&ie=UTF8&iwloc=&output=embed`
-const MAP_LINK = `https://maps.google.com/?q=${MAP_QUERY.replace(/\+/g, ' ')}`
+const MAP_LINK = 'https://maps.app.goo.gl/M2nBdp39owzgXH9n6'
 
 const address = [
   'Chandigarh-Kharar Highway, adjoining Hotel Harmony',

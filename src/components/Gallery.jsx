@@ -2,6 +2,18 @@ import React from 'react'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const photos = [
+  '/gallery/2025-12-27.webp',
+  '/gallery/2024-04-12.webp',
+  '/gallery/2.jpg',
+  '/gallery/3.jpg',
+  '/gallery/5.jpg',
+  '/gallery/6.jpg',
+  '/gallery/7.jpg',
+  '/gallery/9.jpg',
+  '/gallery/10.png',
+  '/gallery/12.jpg',
+  '/gallery/13.jpg',
+  '/gallery/14.jpg',
   '/gallery/dr_parul/2023-08-20(1).jpg',
   '/gallery/dr_parul/2023-08-20(10).jpg',
   '/gallery/dr_parul/2023-08-20(11).jpg',
@@ -224,18 +236,6 @@ const photos = [
   '/gallery/dr_parul/unnamed(7).jpg',
   '/gallery/dr_parul/unnamed(8).jpg',
   '/gallery/dr_parul/unnamed.jpg',
-  '/gallery/2025-12-27.webp',
-  '/gallery/2024-04-12.webp',
-  '/gallery/2.jpg',
-  '/gallery/3.jpg',
-  '/gallery/5.jpg',
-  '/gallery/6.jpg',
-  '/gallery/7.jpg',
-  '/gallery/9.jpg',
-  '/gallery/10.png',
-  '/gallery/12.jpg',
-  '/gallery/13.jpg',
-  '/gallery/14.jpg',
 
 
 ]
