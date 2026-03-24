@@ -166,17 +166,17 @@ function About() {
                     </div>
                   )}
                   <div className="doctor-qualifications">
-                    {doctor.qualifications.map((q) => (
+                    {doctor.qualifications?.map((q) => (
                       <span key={q} className="doctor-qual-tag">{q}</span>
                     ))}
                   </div>
                   <div className="doctor-experience">
-                    {doctor.experience.map((exp) => (
+                    {doctor.experience?.map((exp) => (
                       <p key={exp} className="doctor-exp-item">{exp}</p>
                     ))}
                   </div>
                   <div className="doctor-specialties">
-                    {doctor.specialties.map((s) => (
+                    {doctor.specialties?.map((s) => (
                       <span key={s} className="doctor-specialty-tag">{s}</span>
                     ))}
                   </div>
