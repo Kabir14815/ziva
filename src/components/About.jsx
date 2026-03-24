@@ -64,7 +64,7 @@ const doctors = [
       'Sr. Consultant at Livasa Mohali 2023',
     ],
     specialties: ['Interventional Cardiology', 'Angioplasty'],
-    image: '',
+    image: '/ruchir_rastogi.jpg',
   },
   {
     name: 'Dr. Divij Jayant',
