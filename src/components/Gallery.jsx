@@ -2,22 +2,26 @@ import React from 'react'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const photos = [
-  '/gallery/whatsapp_1.jpeg',
-  '/gallery/1.png',
+  '/gallery/2025-12-27.webp',
+  '/gallery/2024-04-12.webp',
+  '/gallery/2025-09-19.jpg',
+  '/gallery/2025-01-18.jpg',
+  '/gallery/2023-09-13.jpg',
+  '/gallery/2023-08-20.jpg',
+  '/gallery/2024-02-01.jpg',
+  '/gallery/2023-09-17.jpg',
   '/gallery/2.jpg',
   '/gallery/3.jpg',
-  '/gallery/4.jpg',
   '/gallery/5.jpg',
   '/gallery/6.jpg',
   '/gallery/7.jpg',
-  '/gallery/8.png',
   '/gallery/9.jpg',
   '/gallery/10.png',
-  '/gallery/11.jpg',
   '/gallery/12.jpg',
   '/gallery/13.jpg',
   '/gallery/14.jpg',
-  '/gallery/15.png',
+
+
 ]
 
 function Gallery() {
