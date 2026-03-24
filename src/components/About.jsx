@@ -77,7 +77,7 @@ const doctors = [
       'Consultant HPB GI Surgery and General Surgery(2024-2026)',
     ],
     specialties: ['Liver Surgery', 'Gastrointestinal Surgery'],
-    image: '',
+    image: '/divij_jayant.jpeg',
   },
   {
     name: 'Dr. Gaurav Chopra',
