@@ -91,7 +91,7 @@ const doctors = [
       'Ex-Consultant IVY Hospital',
     ],
     specialties: ['Orthopedics'],
-    image: '',
+    image: '/gaurav_chopra.jpeg',
   },
   {
     name: 'Dr. Ravleen Kaur',
