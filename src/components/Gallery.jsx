@@ -2,6 +2,7 @@ import React from 'react'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const photos = [
+  '/gallery/whatsapp_1.jpeg',
   '/gallery/1.png',
   '/gallery/2.jpg',
   '/gallery/3.jpg',
