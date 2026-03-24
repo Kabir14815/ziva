@@ -3,7 +3,7 @@ const MAP_EMBED = `https://maps.google.com/maps?q=${MAP_QUERY}&t=&z=16&ie=UTF8&i
 const MAP_LINK = `https://maps.google.com/?q=${MAP_QUERY.replace(/\+/g, ' ')}`
 
 const address = [
-  'Chandigarh-Kharar Hghway, adjoining Hotel Harmony',
+  'Chandigarh-Kharar Highway, adjoining Hotel Harmony',
   'Opposite Pillar Number 16',
   'Mundi Kharar, Kharar, Punjab 140301',
 ]

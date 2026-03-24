@@ -1,15 +1,16 @@
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 const services = [
+  { icon: '🤰', title: 'Obstetrics', desc: 'Expert care for pregnancy, childbirth, and postpartum period' },
+  { icon: '⚕️', title: 'Gynecology', desc: 'Comprehensive women\'s health and reproductive care' },
   { icon: '👶', title: 'Pediatrics', desc: 'Dedicated care for infants and children' },
-  { icon: '🧬', title: 'PCOD', desc: 'Comprehensive management and hormonal care for PCOD/PCOS' },
-  { icon: '🤰', title: 'High Risk Pregnancy', desc: 'Expert monitoring and care for complex maternal cases' },
-  { icon: '⚕️', title: 'OB-GYN', desc: 'Complete women\'s health, obstetrics, and gynaecology services' },
-  { icon: '🩹', title: 'Surgery', desc: 'Modern operation theatres and surgical excellence' },
+  { icon: '🦴', title: 'Orthopedics', desc: 'Advanced treatment for bones, joints, and musculoskeletal issues' },
+  { icon: '🔬', title: 'Laparoscopic Surgeries', desc: 'Minimally invasive procedures for faster recovery' },
+  { icon: '👩‍⚕️', title: 'Specialist Consultation', desc: 'Expert care across multiple medical disciplines' },
+  { icon: '💉', title: 'Vaccination', desc: 'Immunization services for children and adults' },
   { icon: '🩺', title: 'General Medicine', desc: 'Complete primary care, health checkups, and preventive medicine' },
-  { icon: '👩‍⚕️', title: 'Specialist Consultation', desc: 'Expert care across cardiology, ortho, and more' },
+  { icon: '🧪', title: 'Diagnostics', desc: 'Advanced lab, imaging, CT, and pathology facilities' },
   { icon: '🏥', title: 'Emergency Care', desc: '24/7 emergency & trauma services with critical care' },
-  { icon: '💉', title: 'Diagnostics', desc: 'Advanced lab, imaging, CT, and pathology facilities' },
 ]
 
 function ServiceCard({ icon, title, desc, index }) {

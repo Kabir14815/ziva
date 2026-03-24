@@ -25,7 +25,7 @@ const doctors = [
   },
   {
     name: 'Dr. Pankaj Chopra',
-    role: 'Emergency & Medicine Specialist',
+    role: 'Managing Director Ziva Hospital, Emergency & Medicine Specialist',
     availability: '10:00am-8:00pm',
     qualifications: [
       'MBBS (Emergency & Medicine)',
@@ -33,10 +33,76 @@ const doctors = [
     ],
     experience: [
       'Ex. Ivy & Max Hospital, Mohali',
+      'Ex. Government Hospital, Sec-16, GMC Hospital',
     ],
     specialties: ['Emergency Medicine', 'Critical Care'],
     phone: '9646284108',
     image: '/IMG_3343.JPG.jpeg',
+  },
+  {
+    name: 'Dr. Vineet Saggar',
+    role: 'Neuro Surgeon',
+    qualifications: [
+      'MS-MCh Neuro-Surgeon',
+    ],
+    experience: [
+      'Head Neuro Interventional and Endovascular Neurosurgery, Chandigarh',
+    ],
+    specialties: ['Spine Surgery', 'Neuro Surgery'],
+    image: '',
+  },
+  {
+    name: 'Dr. Ruchir Rastogi',
+    role: 'Cardiologist',
+    qualifications: [
+      'MD Medicine-JLNMC Ajmer',
+      'DM Cardiology-SMS Hospital Jaipur',
+    ],
+    experience: [
+      'Associate Consultant at MAX Mohali (2016-2019)',
+      'Cheif Consultant CMC, Mohali (2019-2023)',
+      'Sr. Consultant at Livasa Mohali 2023',
+    ],
+    specialties: ['Interventional Cardiology', 'Angioplasty'],
+    image: '',
+  },
+  {
+    name: 'Dr. Divij Jayant',
+    role: 'General Surgeon',
+    qualifications: [
+      'Senior Residency, Surgery(PGIMER)',
+      'MS Surgery(PGIMER)',
+    ],
+    experience: [
+      'Consultant HPB GI Surgery and General Surgery(2024-2026)',
+    ],
+    specialties: ['Liver Surgery', 'Gastrointestinal Surgery'],
+    image: '',
+  },
+  {
+    name: 'Dr. Gaurav Chopra',
+    role: 'Orthopedics',
+    qualifications: [
+      'MBBS (GMC Patiala)',
+      'MS Orthopedics ',
+    ],
+    experience: [
+      'Ex Registar DMC(Ludhiana)',
+      'Ex-Consultant IVY Hospital',
+    ],
+    specialties: ['Orthopedics'],
+    image: '',
+  },
+  {
+    name: 'Dr. Ravleen Kaur',
+    role: 'Physiotherapist',
+    qualifications: [
+      'Bachelor of Physiotherapy',
+      'Certified in Cupping Therapy',
+      'Dry Needling',
+    ],
+    specialties: ['Manual Therapy', 'Kinesio Taping', 'IASTM'],
+    image: '',
   },
 ]
 
