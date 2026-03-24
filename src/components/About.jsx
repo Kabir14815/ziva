@@ -102,7 +102,7 @@ const doctors = [
       'Dry Needling',
     ],
     specialties: ['Manual Therapy', 'Kinesio Taping', 'IASTM'],
-    image: '',
+    image: '/ravleen_kaur.jpeg',
   },
 ]
 
