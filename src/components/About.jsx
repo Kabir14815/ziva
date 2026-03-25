@@ -104,6 +104,16 @@ const doctors = [
     specialties: ['Manual Therapy', 'Kinesio Taping', 'IASTM'],
     image: '/ravleen_kaur.jpeg',
   },
+  {
+    name: 'Dr. Lakhbir Singh',
+    role: 'Paediatrics, Child Specialist',
+    qualifications: [
+      'MBBS MD',
+      'MBBS DCH',
+    ],
+    specialties: ['Child Specialist', 'Paediatrician'],
+    image: '',
+  },
 ]
 
 function About() {
