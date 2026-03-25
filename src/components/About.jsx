@@ -112,7 +112,7 @@ const doctors = [
       'MBBS DCH',
     ],
     specialties: ['Child Specialist', 'Paediatrician'],
-    image: '',
+    image: '/lakhbir_singh.jpeg',
   },
 ]
 
