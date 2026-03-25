@@ -19,7 +19,7 @@ function Contact() {
               </a>
               <a href="mailto:info@zivahospital.com" className="contact-link">
                 <span className="contact-label">Email</span>
-                <span className="contact-value">info@zivahospital.com</span>
+                <span className="contact-value">drjaiswal.cmcldh@gmail.com</span>
               </a>
             </div>
           </div>
